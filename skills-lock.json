@@ -1,0 +1,328 @@
+{
+  "version": 1,
+  "skills": {
+    "3d-ui": {
+      "source": "registry:sickn33/3d-ui",
+      "commit_sha": "2aefcf10bca3c61711272a0e1815ca7884a18695",
+      "digest": "sha256:e35dd44c1a086cdba0a0225ed3da337f6e017b91a1e00099e27fd2aa853d78b6",
+      "agents": [
+        "codex"
+      ],
+      "mode": {
+        "codex": "canonical"
+      }
+    },
+    "3d-web-experience": {
+      "source": "registry:sickn33/3d-web-experience",
+      "commit_sha": "46af0185614963e7ee1740cc3d5144c489ebc815",
+      "digest": "sha256:60ff6552477a6764fc709cff9635de1df585f0f8d168199fd7def73365e660df",
+      "agents": [
+        "codex"
+      ],
+      "mode": {
+        "codex": "canonical"
+      }
+    },
+    "ads-report": {
+      "source": "plugin:skillmd/frontend-ui",
+      "digest": "sha256:8ecc32d433da3b0d82dbf335b31e4b2cc4bfe1e983eb06510b0107828d620318",
+      "agents": [
+        "codex"
+      ],
+      "mode": {
+        "codex": "canonical"
+      }
+    },
+    "dbs-wechat-html": {
+      "source": "plugin:skillmd/frontend-ui",
+      "digest": "sha256:93e411ddd4212e721ab2debccad0ad8408404cd15ab88dcff89821e5079665ec",
+      "agents": [
+        "codex"
+      ],
+      "mode": {
+        "codex": "canonical"
+      }
+    },
+    "deck-simple": {
+      "source": "plugin:skillmd/frontend-ui",
+      "digest": "sha256:f801a91ff58ba30eaad79452816c5775b20696badae8e48a3cdab117305d7f66",
+      "agents": [
+        "codex"
+      ],
+      "mode": {
+        "codex": "canonical"
+      }
+    },
+    "expo-design-analysis": {
+      "source": "plugin:skillmd/frontend-ui",
+      "digest": "sha256:bb1c473d747f9d6c692f582acabb0f9fd2fe00fc11ef20005c822033465da27b",
+      "agents": [
+        "codex"
+      ],
+      "mode": {
+        "codex": "canonical"
+      }
+    },
+    "fact-check": {
+      "source": "plugin:skillmd/frontend-ui",
+      "digest": "sha256:1577e2e17aa2e9f30f9af6d69dc742116e350f5bd2fb05bcf4946ca5c62cf74d",
+      "agents": [
+        "codex"
+      ],
+      "mode": {
+        "codex": "canonical"
+      }
+    },
+    "frontend-design": {
+      "source": "registry:anthropic/frontend-design",
+      "commit_sha": "9d2f1ae187231d8199c64b5b762e1bdf2244733d",
+      "digest": "sha256:2c4e6f58df75c06aef5aa719fbc9b7d807b2a46253e0e7931b977fbc23635d50",
+      "agents": [
+        "codex"
+      ],
+      "mode": {
+        "codex": "canonical"
+      }
+    },
+    "frontend-ui-engineering": {
+      "source": "registry:addyosmani/frontend-ui-engineering",
+      "commit_sha": "8c6530305396f341b5da7201cf1f7e390fdb863f",
+      "digest": "sha256:12b4923e7b69d21c7ad6d9cef067405a0d9c87b023654939bfaf05a806b5cf36",
+      "agents": [
+        "codex"
+      ],
+      "mode": {
+        "codex": "canonical"
+      }
+    },
+    "grok-designer": {
+      "source": "plugin:skillmd/frontend-ui",
+      "digest": "sha256:78ebaa8e1a8939f747f3b148be464aef599d1b2cd17345755092c1585fee559c",
+      "agents": [
+        "codex"
+      ],
+      "mode": {
+        "codex": "canonical"
+      }
+    },
+    "guizang-ppt-skill": {
+      "source": "plugin:skillmd/frontend-ui",
+      "digest": "sha256:aeeb109a12e9d92aaf2a8421edc0dfc3847862223d387c0bf77e0ab2371f456e",
+      "agents": [
+        "codex"
+      ],
+      "mode": {
+        "codex": "canonical"
+      }
+    },
+    "html-anything": {
+      "source": "plugin:skillmd/frontend-ui",
+      "digest": "sha256:bb3e72318a56f8ce84f43694cbaefeb2a89a2aa225cea6c6806798440c449b90",
+      "agents": [
+        "codex"
+      ],
+      "mode": {
+        "codex": "canonical"
+      }
+    },
+    "html-docs": {
+      "source": "plugin:skillmd/frontend-ui",
+      "digest": "sha256:b7d4e3017669f7e8c88950f14146ac6bc6f7b95ccb5c002b325e2f712bf6b4ee",
+      "agents": [
+        "codex"
+      ],
+      "mode": {
+        "codex": "canonical"
+      }
+    },
+    "hyperframes-core": {
+      "source": "plugin:skillmd/frontend-ui",
+      "digest": "sha256:eafc59f37ce1dddf04bd88ea027ac97fc0aef20f04428047a0aa73938359b0d0",
+      "agents": [
+        "codex"
+      ],
+      "mode": {
+        "codex": "canonical"
+      }
+    },
+    "landing": {
+      "source": "registry:alirezarezvani/landing",
+      "commit_sha": "2fb75e1af34f314984a21340edf80f8f402abf55",
+      "digest": "sha256:83bf4b596719bc50569c78fb654d8e1044667223fb68649a961a2829552b42db",
+      "agents": [
+        "codex"
+      ],
+      "mode": {
+        "codex": "canonical"
+      }
+    },
+    "performance-optimization": {
+      "source": "registry:addyosmani/performance-optimization",
+      "commit_sha": "8c6530305396f341b5da7201cf1f7e390fdb863f",
+      "digest": "sha256:2f5d67923608634a96e9df684d9f59bf47be414bf8b956385dae2d3a9ed5305c",
+      "agents": [
+        "codex"
+      ],
+      "mode": {
+        "codex": "canonical"
+      }
+    },
+    "ppt-creater-skill": {
+      "source": "plugin:skillmd/frontend-ui",
+      "digest": "sha256:159ce872d8e7d6da425e75c1a1f29bfa05dadaa0557d209b216904d06d0abc1f",
+      "agents": [
+        "codex"
+      ],
+      "mode": {
+        "codex": "canonical"
+      }
+    },
+    "senior-frontend": {
+      "source": "registry:alirezarezvani/senior-frontend",
+      "commit_sha": "2fb75e1af34f314984a21340edf80f8f402abf55",
+      "digest": "sha256:91a77efc7531e8d2f3c07313c20b6b739319fc001d78ce91a3d72ead941698cf",
+      "agents": [
+        "codex"
+      ],
+      "mode": {
+        "codex": "canonical"
+      }
+    },
+    "senior-fullstack": {
+      "source": "registry:alirezarezvani/senior-fullstack",
+      "commit_sha": "2fb75e1af34f314984a21340edf80f8f402abf55",
+      "digest": "sha256:559f8693c39db67f8f408f8b847d757a9b40adc300e4d482cba40f2da4e5ae1a",
+      "agents": [
+        "codex"
+      ],
+      "mode": {
+        "codex": "canonical"
+      }
+    },
+    "skill-creator": {
+      "source": "registry:anthropic/skill-creator",
+      "commit_sha": "9d2f1ae187231d8199c64b5b762e1bdf2244733d",
+      "digest": "sha256:ca5641f654763aec65e10c3709107b59b0afbe8c6468d3c6f1923dc2ee9f93eb",
+      "agents": [
+        "codex"
+      ],
+      "mode": {
+        "codex": "canonical"
+      }
+    },
+    "skill-tester": {
+      "source": "registry:alirezarezvani/skill-tester",
+      "commit_sha": "2fb75e1af34f314984a21340edf80f8f402abf55",
+      "digest": "sha256:0790e0f36dfbb3edc9f0bcb00762b1bf35d181b0ec9c063781fe060b37f58008",
+      "agents": [
+        "codex"
+      ],
+      "mode": {
+        "codex": "canonical"
+      }
+    },
+    "slides": {
+      "source": "plugin:skillmd/frontend-ui",
+      "digest": "sha256:34a4fe61c26a1e94596c97b260e0a03017a4a88c504ca6cc8e4658fe061605d4",
+      "agents": [
+        "codex"
+      ],
+      "mode": {
+        "codex": "canonical"
+      }
+    },
+    "storage-analyzer": {
+      "source": "plugin:skillmd/frontend-ui",
+      "digest": "sha256:3f45bb35f54aa496cf8e59254b9afaff1b72256d683c9ac9b4149fdc03df3ffe",
+      "agents": [
+        "codex"
+      ],
+      "mode": {
+        "codex": "canonical"
+      }
+    },
+    "sveltekit-svelte5-tailwind-skill": {
+      "source": "plugin:skillmd/frontend-ui",
+      "digest": "sha256:7e6c9545271d10244c21a8089e78ab66405ab7d565962642631238c21c658cdf",
+      "agents": [
+        "codex"
+      ],
+      "mode": {
+        "codex": "canonical"
+      }
+    },
+    "theme-factory": {
+      "source": "registry:anthropic/theme-factory",
+      "commit_sha": "9d2f1ae187231d8199c64b5b762e1bdf2244733d",
+      "digest": "sha256:62b20efeb8404ed24cfb19fcbc46f88f29d0aa577366927fc57045edc179a745",
+      "agents": [
+        "codex"
+      ],
+      "mode": {
+        "codex": "canonical"
+      }
+    },
+    "ui-craft": {
+      "source": "plugin:skillmd/frontend-ui",
+      "digest": "sha256:42cfa8f72293fec3ae2caa26ae0dda1c9fd693695da14deb58b40a591dd84b14",
+      "agents": [
+        "codex"
+      ],
+      "mode": {
+        "codex": "canonical"
+      }
+    },
+    "ui-styling": {
+      "source": "plugin:skillmd/frontend-ui",
+      "digest": "sha256:89b1a705ecb689110bb616bba1cdc9ce482c6410ffd8901346cf96687be9fefc",
+      "agents": [
+        "codex"
+      ],
+      "mode": {
+        "codex": "canonical"
+      }
+    },
+    "web-artifacts-builder": {
+      "source": "registry:anthropic/web-artifacts-builder",
+      "commit_sha": "9d2f1ae187231d8199c64b5b762e1bdf2244733d",
+      "digest": "sha256:94a483ba7fa7ab7a215ff2f787a1cf7c36ecf99682a58cd44c49f2d995c222d2",
+      "agents": [
+        "codex"
+      ],
+      "mode": {
+        "codex": "canonical"
+      }
+    },
+    "web-design-guidelines": {
+      "source": "registry:antfu/web-design-guidelines",
+      "commit_sha": "a74f281a27dadc02397bc1a174b0f2c97531b6ae",
+      "digest": "sha256:b78816474bd55ff82499ab58a030a7d01dad9c22b82d3f2627a09c8c638def21",
+      "agents": [
+        "codex"
+      ],
+      "mode": {
+        "codex": "canonical"
+      }
+    },
+    "xlsx": {
+      "source": "plugin:skillmd/frontend-ui",
+      "digest": "sha256:5070d394e8baef6c8ee6d22e9a177b651aae98bc8713d68477a6621d843147d5",
+      "agents": [
+        "codex"
+      ],
+      "mode": {
+        "codex": "canonical"
+      }
+    },
+    "zan-html-to-ppt": {
+      "source": "plugin:skillmd/frontend-ui",
+      "digest": "sha256:c25232886326ee4cf67ce39cda0ab03d3b973ae735cef20c9006a940bb0cbf3f",
+      "agents": [
+        "codex"
+      ],
+      "mode": {
+        "codex": "canonical"
+      }
+    }
+  }
+}
