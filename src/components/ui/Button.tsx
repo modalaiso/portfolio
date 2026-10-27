@@ -16,25 +16,25 @@ type Props = {
 };
 
 const sizes = {
-  md: "h-12 min-w-[170px] px-6 text-base md:h-[60px] md:min-w-[214px] md:text-[18px]",
-  sm: "h-10 min-w-0 px-4 text-sm md:h-[60px] md:min-w-[214px] md:px-6 md:text-[18px]",
+  md: "h-10 min-w-[170px] px-6 text-base md:h-[60px] md:min-w-[214px] md:text-[18px]",
+  sm: "h-10 min-w-0 px-2 text-sm text-shadow-lg md:h-12 md:min-w-46 md:px-4",
 };
 
 const variants = {
   primary:
-    "bg-gradient-to-b from-[#E37F1A] to-[#B04B08] font-medium text-white shadow-[0_6px_12px_rgba(120,50,0,0.3),inset_0_2px_3px_rgba(255,200,120,0.6)] hover:brightness-110 hover:shadow-[0_14px_24px_rgba(120,50,0,0.35),inset_0_2px_3px_rgba(255,200,120,0.6)]",
+    "bg-gradient-to-b border-t  border-primary-200 from-[#E37F1A] to-[#B04B08] font-medium text-white shadow-[0_6px_12px_rgba(120,50,0,0.3),inset_0_2px_3px_rgba(255,200,120,0.6)] shadow-[inset_0_-2px_2px_rgba(0,0,0,0.25),0_10px_15px_-3px_rgba(0,0,0,0.1),0_4px_6px_-4px_rgba(0,0,0,0.1)] hover:brightness-110 hover:shadow-[0_14px_24px_rgba(120,50,0,0.35),inset_0_2px_3px_rgba(255,200,120,0.6)]",
   outline:
     "border-[3px] border-ink font-bold text-ink hover:bg-ink hover:text-[#FFEEE8] hover:shadow-[0_12px_22px_rgba(51,20,0,0.25)]",
 };
 
-export default function Button({ href, variant = "primary", size = "md", icon, className = "", children }: Props) {
+export default function Button({ href, variant = "primary", size = "md", icon, className = "", children }: Readonly<Props>) {
   return (
     <MotionLink
       href={href}
       whileHover={{ scale: 1.06, y: -3 }}
       whileTap={{ scale: 0.94, y: 0 }}
       transition={{ type: "spring", stiffness: 400, damping: 17 }}
-      className={`group relative inline-flex items-center justify-center gap-[10px] whitespace-nowrap rounded-full no-underline transition-[background-color,color,box-shadow,filter] duration-300 ${sizes[size]} ${variants[variant]} ${className}`}
+      className={`group relative inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full no-underline transition-[background-color,color,box-shadow,filter] duration-300 ${sizes[size]} ${variants[variant]} ${className}`}
     >
       {variant === "primary" && (
         <span aria-hidden="true" className="pointer-events-none absolute inset-0 overflow-hidden rounded-full">
@@ -43,7 +43,7 @@ export default function Button({ href, variant = "primary", size = "md", icon, c
       )}
       <span className="relative">{children}</span>
       {icon && (
-        <span className="relative transition-transform duration-300 group-hover:translate-x-1 group-hover:-rotate-12 [&>svg]:block">
+        <span className="relative transition-transform duration-300 group-hover:translate-x-1 [&>svg]:block">
           {icon}
         </span>
       )}

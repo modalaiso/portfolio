@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { DM_Sans, Syne } from "next/font/google";
+import { Dela_Gothic_One, DM_Sans, DynaPuff } from "next/font/google";
 import MotionProvider from "@/components/MotionProvider";
 import "./globals.css";
 
@@ -9,10 +9,15 @@ const dmSans = DM_Sans({
   weight: ["400", "500", "700"],
 });
 
-const syne = Syne({
-  variable: "--font-syne",
+const delaGothicOne = Dela_Gothic_One({
+  variable: "--font-dela-gothic-one",
   subsets: ["latin"],
-  weight: "800",
+  weight: "400",
+});
+
+const dynaPuff = DynaPuff({
+  variable: "--font-dyna-puff",
+  subsets: ["latin"],
 });
 
 export const metadata: Metadata = {
@@ -22,8 +27,11 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html lang="fr" className={`${dmSans.variable} ${syne.variable} scroll-smooth antialiased`}>
-      <body className="min-h-screen">
+    <html
+      lang="fr"
+      className={`${dmSans.variable} ${delaGothicOne.variable} ${dynaPuff.variable} scroll-smooth antialiased`}
+    >
+      <body className="min-h-screen bg-primary-200">
         <MotionProvider>{children}</MotionProvider>
       </body>
     </html>

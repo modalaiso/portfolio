@@ -5,7 +5,7 @@ import { motion } from "motion/react";
 export default function Character() {
   return (
     <motion.div
-      className="pointer-events-none absolute left-[7.9%] top-[13.4%] z-[3] w-[83.6%]"
+      className="pointer-events-none absolute left-[7.9%] top-[13.4%] z-3 w-[83.6%]"
       initial={{ opacity: 0, y: 90 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.9, delay: 0.5, ease: "easeOut" }}
